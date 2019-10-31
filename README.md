@@ -5,7 +5,7 @@ Run scrap.py to scrap data from codechef.com
 
     python3 scrap.py
 
-This was save a file called problems.json.
+This will save a file called problems.json.
 Run view.py to view the list of questions scrapped from codechef.com
 
     python3 view.py
