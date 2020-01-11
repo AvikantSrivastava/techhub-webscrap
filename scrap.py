@@ -21,7 +21,7 @@ for a in soup2.findAll('a', href=re.compile('/problems/') ):
     link = 'https://www.codechef.com' + a['href']
     problem_name.append(name)
     problem_link.append(link)
-#     print("{}    {} ".format(name,link) )
+    print("{}    {} ".format(name,link) )
 problem_vault = dict(zip(problem_name,problem_link))
 
 import json
